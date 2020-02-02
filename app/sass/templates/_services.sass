@@ -1,0 +1,45 @@
+.services
+  &__inner
+    display: flex
+    justify-content: space-between
+    margin-top: 15.5rem
+
+    &-item
+      padding: 12rem 7.7rem 7rem
+      position: relative
+
+      background-color: $dark_white
+      border-left: 0.2rem solid $primary
+      border-right: 0.2rem solid $primary
+      border-bottom: 0.2rem solid $primary
+      &::before
+        content: ''       
+        position: absolute
+        width: 16.5rem
+        height: 14.7rem
+        top: -9.6rem
+        left: 28%
+
+        background: $primary url('../images/png/car.png') no-repeat center
+      &:nth-child(2)
+        &::before
+          background: $primary url('../images/png/stethoscope.png') no-repeat center
+
+      &:nth-child(3)
+        &::before
+          background: $primary url('../images/png/online.png') no-repeat center
+
+
+    &-titel
+      font-size: 2.4rem
+      font-family: 'Oswald', sans-serif
+      font-weight: 400
+      line-height: 5.2rem
+      text-transform: uppercase
+
+      color: $dark
+
+
+
+
+

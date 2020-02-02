@@ -1,0 +1,134 @@
+.record 
+  padding: 9rem 0
+  position: relative 
+
+  background: no-repeat 
+  background-size: cover
+  &::before
+    content: '' 
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background: rgba($primary, 0.9) 
+
+  &__inner
+    position: relative
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+    &-info
+      max-width: 55rem
+
+    &-titel
+      max-width: 47.3rem
+
+      font-family: 'Oswald', sans-serif
+      font-size: 3.5rem
+      line-height: 5.2rem
+      font-weight: 400
+      text-transform: uppercase
+            
+      span
+        display: block
+    
+    &-text
+      margin-bottom: 2.5rem
+
+      font-family: 'Oswald', sans-serif
+      line-height: 2.7rem      
+     
+      span
+        display: block
+
+    &-button
+      margin-left: 1rem
+      padding: 1.12rem 3.45rem 1.22rem
+
+.record-form
+  min-width: 46.1rem
+  
+  input
+    padding: 1.3rem 0 1.2rem 1.4rem
+    width: 100%
+
+    
+    background: transparent
+    border: 0.1rem solid $white    
+    &::placeholder
+      color: $white
+
+  &__titel
+    margin-bottom: 2.4rem
+
+    font-family: 'Oswald', sans-serif
+    font-size: 2rem
+    font-weight: 700
+    text-transform: uppercase
+    
+  &__name, &__email      
+    display: block    
+    margin-bottom: 1.4rem
+
+    line-height: 0        
+
+  &__group
+    display: flex
+    justify-content: space-between
+    margin-bottom: 1.5rem
+    width: 100%
+
+  &__day
+    max-width: 11.3rem
+
+  &__time
+    max-width: 14.3rem
+    position: relative
+    &::before      
+      content: '\f0d7'
+      position: absolute       
+
+      font-family: 'icomoon'
+      font-size: 2.5rem
+      color: $white
+  
+  &__doctor
+    max-width: 17.2rem
+  
+  &__comment
+    min-height: 11.5rem
+    width: 100%
+    margin-bottom: 1.5rem
+    padding: 1.7rem 0 0 1.4rem 
+
+    background: transparent    
+
+    &::placeholder
+      color: $white
+
+  &__button
+    display: block
+    margin-left: auto
+    padding: 1rem 3.6rem 1.1rem
+
+    background: transparent
+
+
+      
+
+   
+
+    
+
+
+
+ 
+
+    
+    
+
+
+
+
