@@ -1,0 +1,138 @@
+.footer
+  background-color: $dark
+
+  &__top
+    display: flex
+    justify-content: space-between
+    padding: 8.7rem 0 8.9rem
+
+    color: $bg_light
+
+  &__titel
+    margin-bottom: 2.5rem
+
+    font-size: 2.4rem
+    font-weight: 700
+    text-transform: uppercase
+
+    color: $primary
+
+  &__address
+    &-text
+      max-width: 20.4rem
+
+  &__table    
+    width: 22.4rem
+    &-day
+      width: 14.1rem
+
+  &__menu
+    min-width: 24.3rem
+    display: flex
+    justify-content: space-between
+
+    &-item
+      a
+        color: $bg_light
+
+  &__form
+    max-width: 30.4rem
+    position: relative
+    margin-bottom: 2.2rem
+
+    input
+      width: 100%
+      padding: 1.35rem 0 1.25rem 1.7rem
+      background-color: transparent
+      border: 0.1rem solid $white
+
+      color: $white
+    
+    &-buttom
+      position: absolute
+      width: 5.2rem
+      height: 4.344rem
+      right: 0
+      background-color: transparent
+      border: none
+      border-left: 0.1rem solid $white
+      &::before
+        content: '\f1d9'     
+                
+        font-family: 'icomoon'
+        font-size: 1.4rem
+
+        color: $white
+
+  &__social
+    &-links    
+      a
+        display: inline-block
+        position: relative
+        width:  3.1rem
+        height: 3.1rem
+
+        border: 0.1rem solid $white
+        border-radius: 0.5rem
+        & + a
+          margin-left: 0.8rem
+        &::before
+          content: ''                        
+          position: absolute
+
+          font-family: 'icomoon'
+          font-size: 1.4rem
+
+          color: $white
+    &-facebook
+      &::before
+        content: "\f09a" !important
+        top: 16%
+        left: 38%  
+    &-twitter
+       &::before
+        content: "\ea96" !important
+        top: 16%
+        left: 29%
+    &-email
+      &::before
+        content: "\f003" !important
+        left: 29% 
+        top: 10% 
+    &-phone
+      &::before
+        content: "\f095" !important
+        left: 29% 
+        top: 10% 
+
+    &-google
+      &::before
+        content: "\f0d5" !important
+        left: 21% 
+        top: 10% 
+
+    &-in
+      &::before
+        content: "\eadb" !important
+        left: 29% 
+        top: 10% 
+
+    &-pinterest
+      &::before
+        content: "\ead2" !important
+        left: 29% 
+        top: 10% 
+        
+  &__bottom
+    padding: 4.8rem
+    background-color: $bg_black
+
+    &-text
+      text-align: center
+
+
+      
+
+     
+     
+      
